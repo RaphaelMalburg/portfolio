@@ -1,4 +1,3 @@
-"use client";
 import React from "react";
 import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
@@ -69,7 +68,7 @@ export const BackgroundBeams = React.memo(({ className }: { className?: string }
           <motion.path key={`path-` + index} d={path} stroke={`url(#linearGradient-${index})`} strokeOpacity="0.4" strokeWidth="0.5"></motion.path>
         ))}
         <defs>
-          {paths.map((path, index) => (
+          {paths.map((index) => (
             <motion.linearGradient
               id={`linearGradient-${index}`}
               x1="100%"

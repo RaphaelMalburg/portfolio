@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 
-import React, { useState } from "react";
 import { motion, useTransform, AnimatePresence, useMotionValue, useSpring } from "framer-motion";
+import { useState } from "react";
 
 export const AnimatedTooltip = ({
   items,
@@ -27,7 +27,7 @@ export const AnimatedTooltip = ({
 
   return (
     <>
-      {items.map((item, idx) => (
+      {items.map((item) => (
         <div className="-mr-4  relative group " key={item.name} onMouseEnter={() => setHoveredIndex(item.id)} onMouseLeave={() => setHoveredIndex(null)}>
           <AnimatePresence mode="wait">
             {hoveredIndex === item.id && (
