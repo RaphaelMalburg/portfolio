@@ -40,4 +40,5 @@ const ButtonShadcn = React.forwardRef<HTMLButtonElement, ButtonProps>(({ classNa
 });
 ButtonShadcn.displayName = "Button";
 
+// eslint-disable-next-line react-refresh/only-export-components
 export { ButtonShadcn, buttonVariants };
