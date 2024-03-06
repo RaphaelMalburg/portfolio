@@ -19,14 +19,6 @@ export default function Projects() {
       linkDemo: "https://www.bomaubistro.com/",
     },
     {
-      title: "Cookify",
-      description: "Recipes search page comsuming public API",
-      technologies: ["React", "TailwindCSS"],
-      image: "/Cookify.jpg",
-      linkCode: "https://github.com/RaphaelMalburg/Cookify",
-      linkDemo: "https://github.com/RaphaelMalburg/Cookify",
-    },
-    {
       title: "HContainers",
       description: "Landing page for a maritime container customization company",
       technologies: ["React", "TypeScript", "TailwindCSS"],
@@ -34,6 +26,15 @@ export default function Projects() {
       linkCode: "https://github.com/RaphaelMalburg/HcontainerWebpage",
       linkDemo: "https://hcontainer-webpage.vercel.app/",
     },
+    {
+      title: "Cookify",
+      description: "Recipes search page comsuming public API",
+      technologies: ["React", "TailwindCSS"],
+      image: "/Cookify.jpg",
+      linkCode: "https://github.com/RaphaelMalburg/Cookify",
+      linkDemo: "https://cookify-one.vercel.app/",
+    },
+
     {
       title: "Zebuino",
       description: "Steakhouse restaurant, first project with react",
