@@ -49,7 +49,7 @@ export default function CardProject(props: props) {
               Code
             </ButtonShadcn>
           </a>
-          <a href={props.linkCode} className="w-full rounded-sm">
+          <a href={props.linkDemo} className="w-full rounded-sm">
             <ButtonShadcn variant="outline" className="w-full rounded-sm flex justify-center gap-4">
               <TbWorldWww size={25} />
               Demo

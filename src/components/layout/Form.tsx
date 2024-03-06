@@ -7,9 +7,9 @@ import { Input } from "@/components/ui/input";
 import { toast } from "../ui/use-toast";
 
 const formSchema = z.object({
-  email: z.string().email(),
-  message: z.string().min(10),
-  name: z.string().min(2),
+  email: z.string().email({ message: "Invalid email address" }),
+  message: z.string().min(10, { message: "Message must be at least 10 characters" }),
+  name: z.string().min(2, { message: "Name must be at least 2 characters" }),
 });
 
 export function ContactForm() {
