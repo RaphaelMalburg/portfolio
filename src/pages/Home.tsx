@@ -4,7 +4,7 @@ import Projects from "@/components/layout/Projects";
 import { Button } from "@/components/ui/ButtonMovingBorder";
 import { useState } from "react";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
-import RaphaelMalburgCV from "/RaphaelMalburgCV.pdf";
+import RaphaelMalburgCV from "/Resume-RaphaelMalburg.pdf";
 import { FaRegFilePdf } from "react-icons/fa6";
 
 export default function Home() {
