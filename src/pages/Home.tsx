@@ -11,9 +11,10 @@ export default function Home() {
   const [showProjects, setShowProjects] = useState(false);
   return (
     <main className="h-fit min-h-screen w-full bg-grid font-ubuntu" id="hero">
-      <main className="   bg-gradient-to-br from-gray-200/30 via-stone-300/40 to-slate-200/80 dark:from-gray-800/85  dark:via-stone-900/95 dark:to-slate-950/90 h-fit min-h-screen w-full">
+      <main className="   bg-gradient-to-br from-gray-100/80 via-stone-200/50 to-slate-200/80 dark:from-gray-800/85  dark:via-stone-900/95 dark:to-slate-950/90 h-fit min-h-screen w-full">
         <Nav />
         <Hero />
+
         <div className="container  pt-28">
           <Button
             borderRadius="0.25rem"
@@ -39,21 +40,4 @@ export default function Home() {
       </main>
     </main>
   );
-}
-{
-  /**    <div className="relative">
-      <Navbar />
-
-      <main className="h-fit lg:h-screen font-roboto bg-gray-100 dark:bg-black/90 w-full flex flex-col lg:flex-row  min-w-[320px] transition-all  ease-in-out">
-        <div className=" lg:basis-5/12 w-full h-full grid place-content-center relative">
-          <Hero />
-        </div>
-        <div className="lg:hidden">
-          <Projects />
-        </div>
-        <section className=" hidden lg:flex h-screen lg:w-7/12 overflow-y-scroll">
-          <Projects />
-        </section>
-      </main>
-    </div> */
 }

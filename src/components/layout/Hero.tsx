@@ -2,13 +2,15 @@ import IconStack from "../ui/iconStack";
 
 export default function Hero() {
   const icons = [
-    { path: "react.svg", description: "React" },
+    { path: "csharp.svg", description: "C#" },
     { path: "typescript.svg", description: "TypeScript" },
+    { path: "react.svg", description: "React" },
+    { path: "DOTNET.svg", description: ".NET" },
     { path: "nextjs.svg", description: "Next.js" },
     { path: "tailwind.svg", description: "Tailwind CSS" },
-    { path: "sqlserver.svg", description: "SQL Server" },
+    { path: "sql.png", description: "SQL" },
     { path: "prisma.svg", description: "Prisma" },
-    { path: "csharp.svg", description: "C#" },
+
     { path: "sass.svg", description: "Sass" },
     { path: "sanity.svg", description: "Sanity" },
   ];

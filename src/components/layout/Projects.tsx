@@ -1,12 +1,25 @@
 import CardProject, { props as CardProjectProps } from "../ui/cardProject";
 import { motion } from "framer-motion";
+
 export default function Projects() {
   const projects: CardProjectProps[] = [
     {
+      title: "Kitchen Flow",
+      description:
+        "Web app focused on Kitchen management, making use of Azure Blob storage, PostgreSQL database, full registration process with Identity. The app was deployed in Docker containers to Azure. Check the Video Demo for more information",
+      technologies: [".NET", "C#", "React", "TypeScript", "TailwindCSS", "PostgreSQL", "Entity Framework"],
+      image: "/kitchen-light.png",
+      video: "/kitchen-demo.mp4", // Add the video property
+      linkCode: "https://github.com/RaphaelMalburg/kitchenflow",
+      linkDemo: "https://kitchenflow.azurewebsites.net/",
+    },
+    {
       title: "Cottura",
-      description: "Pasta Shop website with Sanity CMS integration",
+      description:
+        "Pasta Shop website with Sanity CMS integration. Focused on the use of a JAM Stack architecture for a modern web application. . Check the Video Demo for more information",
       technologies: ["NextJS", "TypeScript", "TailwindCSS", "Sanity"],
       image: "/COTTURA.jpg",
+      video: "/cottura-demo.mp4", // Add the video property
       linkCode: "https://github.com/RaphaelMalburg/cottura-webpage",
       linkDemo: "https://cottura-webpage.vercel.app/",
     },
@@ -18,32 +31,8 @@ export default function Projects() {
       linkCode: "https://github.com/RaphaelMalburg/BomauBistro2",
       linkDemo: "https://www.bomaubistro.com/",
     },
-    {
-      title: "HContainers",
-      description: "Landing page for a maritime container customization company",
-      technologies: ["React", "TypeScript", "TailwindCSS"],
-      image: "/hernandoContainer.jpg",
-      linkCode: "https://github.com/RaphaelMalburg/HcontainerWebpage",
-      linkDemo: "https://hcontainer-webpage.vercel.app/",
-    },
-    {
-      title: "Cookify",
-      description: "Recipes search page comsuming public API",
-      technologies: ["React", "TailwindCSS"],
-      image: "/Cookify.jpg",
-      linkCode: "https://github.com/RaphaelMalburg/Cookify",
-      linkDemo: "https://cookify-one.vercel.app/",
-    },
-
-    {
-      title: "Zebuino",
-      description: "Steakhouse restaurant, first project with react",
-      technologies: ["React", "CSS"],
-      image: "/zebuino.jpg",
-      linkCode: "https://github.com/RaphaelMalburg/ZebuinoParrilla",
-      linkDemo: "https://raphaelmalburg.github.io/ZebuinoParrilla/",
-    },
   ];
+
   return (
     <motion.div className="lg:pt-16 grid col-span-1 gap-10" id="projects">
       {projects.map((project, index) => (
