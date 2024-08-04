@@ -5,7 +5,7 @@ export default function Hero() {
     { path: "csharp.svg", description: "C#" },
     { path: "typescript.svg", description: "TypeScript" },
     { path: "react.svg", description: "React" },
-    { path: "DOTNET.svg", description: ".NET" },
+    { path: "dotnet.png", description: ".NET" },
     { path: "nextjs.svg", description: "Next.js" },
     { path: "tailwind.svg", description: "Tailwind CSS" },
     { path: "sql.png", description: "SQL" },
